@@ -2,6 +2,7 @@
 using NUnit.Framework;
 //using Lab_08_TDD_Collections;
 using Lab_09_Rabbit_Test;
+using Lab_20_Northwind_Products;
 
 
 namespace NUnit_Tests_Core3_0
@@ -43,7 +44,6 @@ namespace NUnit_Tests_Core3_0
         [TestCase(6,9,4)]
         [TestCase(8,18,7)]
         [TestCase(2,2,1)]
-        #endregion
         public void RabbitGrowthAfterThreeYears
             (int totalYears, int expectedRabbitAge, int expectedRabbitCount)
         {
@@ -54,8 +54,32 @@ namespace NUnit_Tests_Core3_0
             Assert.AreEqual(expectedRabbitAge, actualCumulativeAge);
             Assert.AreEqual(expectedRabbitCount, actualRabbitCount);
         }
+        #endregion
 
-        
+        #region TestNumberOfProductsStartingAndContainingAParticularLetter
+        //MAKE IT WORK
+        [TestCase("p", 3)]
+        public void TestNumberOfProducts(string letter, int expected)
+        {
+            //arrange (instance)
+            var instance = new NorthindProductTest();
+            //act(method)
+            var actual = instance.GetProduct(letter);
+            //assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestCase("p", 17)]
+        [TestCase("a", 58)]
+        [TestCase("d", 30)]
+        public void TestNumberOfProductsContainingALetter(string letter,int expected)
+        {
+
+            //arrange (instance)
+            Assert.AreEqual(expected, NorthindProductTest.TestNumberOfProductsContainingALetter(letter));
+        }
+
+        #endregion
     }
 
 

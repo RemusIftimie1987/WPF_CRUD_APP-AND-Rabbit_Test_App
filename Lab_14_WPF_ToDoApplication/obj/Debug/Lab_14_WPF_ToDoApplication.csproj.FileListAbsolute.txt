@@ -1,5 +1,6 @@
-C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\bin\Debug\Lab_14_WPF_ToDoApplication.exe
 C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\bin\Debug\Lab_14_WPF_ToDoApplication.exe.config
+C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\bin\Debug\Lab_14_WPF_ToDoApplication.exe
+C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\bin\Debug\Lab_14_WPF_ToDoApplication.pdb
 C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\bin\Debug\EntityFramework.dll
 C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\bin\Debug\EntityFramework.xml
@@ -17,4 +18,3 @@ C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplic
 C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\obj\Debug\Lab_14_WPF_ToDoApplication.csproj.CopyComplete
 C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\obj\Debug\Lab_14_WPF_ToDoApplication.exe
 C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\obj\Debug\Lab_14_WPF_ToDoApplication.pdb
-C:\Users\Remus Iftimie\source\repos\Lab_08_TDD_Collections\Lab_14_WPF_ToDoApplication\bin\Debug\Lab_14_WPF_ToDoApplication.pdb

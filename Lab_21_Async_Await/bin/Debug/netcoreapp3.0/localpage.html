@@ -1,0 +1,2212 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="hasSidebar hasPageActions hasBreadcrumb reference  has-default-focus theme-light" lang="en-us" dir="ltr" data-css-variable-support="true" data-authenticated="false" data-auth-status-determined="false" data-target="docs" x-ms-format-detection="none">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="Process Class (System.Diagnostics)" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process" />
+		<meta property="og:description" content="Provides access to local and remote processes and enables you to start and stop local system processes. " />
+		<meta property="og:image" content="https://docs.microsoft.com/en-us/media/logos/logo-ms-social.png" />
+		<meta property="og:image:alt" content="Microsoft Logo" />
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@docsmsft" />
+
+		<meta name="monikers" content="netcore-1.0" />
+<meta name="monikers" content="netcore-1.1" />
+<meta name="monikers" content="netcore-2.0" />
+<meta name="monikers" content="netcore-2.1" />
+<meta name="monikers" content="netcore-2.2" />
+<meta name="monikers" content="netcore-3.0" />
+<meta name="monikers" content="netframework-1.1" />
+<meta name="monikers" content="netframework-2.0" />
+<meta name="monikers" content="netframework-3.0" />
+<meta name="monikers" content="netframework-3.5" />
+<meta name="monikers" content="netframework-4.0" />
+<meta name="monikers" content="netframework-4.5" />
+<meta name="monikers" content="netframework-4.5.1" />
+<meta name="monikers" content="netframework-4.5.2" />
+<meta name="monikers" content="netframework-4.6" />
+<meta name="monikers" content="netframework-4.6.1" />
+<meta name="monikers" content="netframework-4.6.2" />
+<meta name="monikers" content="netframework-4.7" />
+<meta name="monikers" content="netframework-4.7.1" />
+<meta name="monikers" content="netframework-4.7.2" />
+<meta name="monikers" content="netframework-4.8" />
+<meta name="monikers" content="netstandard-2.0" />
+<meta name="monikers" content="netstandard-2.1" />
+<meta name="monikers" content="xamarinandroid-7.1" />
+<meta name="monikers" content="xamarinios-10.8" />
+<meta name="monikers" content="xamarinmac-3.0" />
+<meta name="original_ref_skeleton_git_url" content="https://github.com/dotnet/dotnet-api-docs/blob/live/xml/System.Diagnostics/Process.xml" />
+<meta name="APIName" content="System.Diagnostics.Process" />
+<meta name="APILocation" content="System.Diagnostics.Process.dll" />
+<meta name="APILocation" content="System.dll" />
+<meta name="APILocation" content="netstandard.dll" />
+<meta name="TopicType" content="apiref" />
+<meta name="APIType" content="Assembly" />
+<meta name="author" content="dotnet-bot" />
+<meta name="ms.author" content="dotnetcontent" />
+<meta name="breadcrumb_path" content="/dotnet/breadcrumb/toc.json" />
+<meta name="apiPlatform" content="dotnet" />
+<meta name="ms.topic" content="managed-reference" />
+<meta name="ms.date" content="04/30/2018" />
+<meta name="ms.technology" content="system.diagnostics" />
+<meta name="ms.prod" content="dotnet-api" />
+<meta name="uhfHeaderId" content="MSDocsHeader-DotNet" />
+<meta name="search.ms_sitename" content="Docs" />
+<meta name="search.ms_docsetname" content="dotnet-api-docs" />
+<meta name="locale" content="en-us" />
+<meta name="site_name" content="Docs" />
+<meta name="search.ms_product" content="VS" />
+<meta name="depot_name" content="VS.dotnet-api-docs" />
+<meta name="updated_at" content="2019-11-27 12:05 AM" />
+<meta name="document_id" content="84993cb7-37e6-01ef-9b25-8cea57f5a125" />
+<meta name="document_version_independent_id" content="723dcba4-f26d-7567-77af-4e93f41a0df9" />
+<meta name="original_content_git_url" content="https://github.com/dotnet/dotnet-api-docs/blob/live/xml/System.Diagnostics/Process.xml" />
+<meta name="page_type" content="dotnet" />
+<meta name="page_kind" content="class" />
+<meta name="ms.assetid" content="System.Diagnostics.Process" />
+<meta name="description" content="Provides access to local and remote processes and enables you to start and stop local system processes. " />
+<meta name="toc_rel" content="_splitted/System.Diagnostics/toc.json" />
+<meta name="pdf_url_template" content="https://docs.microsoft.com/pdfstore/en-us/VS.dotnet-api-docs/{branchName}{pdfName}" />
+<meta name="search.mshattr.devlang" content="cpp csharp fsharp vb" />
+
+	<meta name="scope" content=".NET" />
+<link href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process" rel="canonical">
+	<title>Process Class (System.Diagnostics) | Microsoft Docs</title>
+
+		<link rel="stylesheet" href="/_themes/docs.theme/master/en-us/_themes/styles/4a27941f.site-ltr.css ">
+
+	<link rel="stylesheet" href="/_themes/docs.theme/master/en-us/_themes/styles/4907d3e1.reference.css ">
+
+
+	<script>
+	var msDocs = {
+		data: {
+			timeOrigin: Date.now(),
+			azureHeaderLocale: 'en-us',
+			contentLocale: 'en-us',
+			contentDir: 'ltr',
+			userLocale: 'en-us',
+			userDir: 'ltr',
+			pageTemplate: 'Reference',
+			brand: '',
+			context: {
+
+			},
+			hasComments: false,
+			showFeedbackReport: false,
+			enableTutorialFeedback: false,
+			feedbackSystem: 'None',
+			feedbackGitHubRepo: '',
+			feedbackProductUrl: '',
+			contentGitUrl: 'https://github.com/dotnet/dotnet-api-docs/blob/master/xml/System.Diagnostics/Process.xml',
+			defaultDevLang: 'csharp',
+			extendBreadcrumb: true,
+		},
+		functions:{}
+	};
+	if (!('Promise' in window && 'resolve' in window.Promise && 'reject' in window.Promise && 'all' in window.Promise && 'race' in window.Promise)) {
+		document.write('<script src="https://static.docs.com/ui/third-party/bluebird/3.5.0/bluebird.min.js" integrity="sha384-aD4BDeDGeLXLpPK4yKeqtZQa9dv4a/7mQ+4L5vwshIYH1Mc2BrXvHd32iHzYCQy5" crossorigin="anonymous"><\/script>');
+	}
+	if (typeof fetch !== 'function') {
+		document.write('<script src="https://static.docs.com/ui/third-party/fetch/2.0.3/fetch.min.js" integrity="sha384-H3LQq82b6Mm80GYRHtRSlTwO9DoXctmYCVEYk9M8mp97lRzs6DuSrHVUg3SBP9w0" crossorigin="anonymous"><\/script>');
+	}
+	if (typeof HTMLTemplateElement === 'undefined') {
+		document.write('<script src="https://static.docs.com/ui/third-party/template/1.4.0/template.min.js" integrity="sha384-1zKzI6ldTVHMU7n0W2HpE/lhHI+UG4D9IIaxbj3kT2UhCWicdTuJkTtnKuu0CQzN" crossorigin="anonymous"><\/script>');
+	}
+	if (typeof URL !== 'function') {
+		document.write('<script src="https://static.docs.com/ui/third-party/url/0.5.7/url.min.js" integrity="sha384-vn7xBMtpSTfzaTRWxj0kVq0UcsbBrTOgZ/M1ISHqe1V358elYva+lfiEC+T8jLPc" crossorigin="anonymous"><\/script>');
+	}
+	</script>
+
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+		<script src="/_themes/docs.theme/master/en-us/_themes/scripts/f5fdc086.index-docs.js"></script>
+
+</head>
+
+<body lang="en-us" dir="ltr">
+<div class="header-holder has-default-focus">
+	<a href="#main" class="skip-to-main-link visually-hidden-until-focused is-fixed has-inner-focus focus-visible has-top-zero has-left-zero has-right-zero has-padding-medium has-text-centered has-body-background-medium" tabindex="1">Skip to main content</a>
+		<div id="headerAreaHolder" data-bi-name="header">
+<header class="nav-bar" role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization">
+	<button class="nav-bar-burger" aria-label="Global navigation" aria-controls="nav-bar-mobile-nav" aria-expanded="false">
+		<span></span>
+		<span></span>
+		<span></span>
+	</button>
+	<nav class="nav-bar-mobile-nav" role="navigation" id="nav-bar-mobile-nav" aria-label="Global" hidden="">
+	</nav>
+	<a class="nav-bar-button" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft">
+		<div class="nav-bar-logo has-background-image theme-display is-light" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope"></div>
+		<div class="nav-bar-logo has-background-image theme-display is-dark is-high-contrast" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope"></div>
+	</a>
+	<nav class="nav-bar-nav" role="navigation" aria-label="Global">
+	</nav>
+	<span class="nav-bar-spacer"></span>
+	<div class="nav-bar-item is-invisible"> <!-- For Forums mobile layout rendering -->
+		<button id="form-expander" class="nav-bar-button has-hover-underline has-margin-left-extra-small"></button>
+	</div>
+</header>		</div>
+		<div class="content-header uhf-container has-padding has-default-focus" data-bi-name="content-header">
+		<nav class="has-padding-none-mobile" data-bi-name="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList" role="navigation" aria-label="Breadcrumb">
+			<ul id="page-breadcrumbs" class="breadcrumbs">
+			</ul>
+		</nav>
+		<div class="content-header-controls">
+			<button type="button" class="contents-button button" data-bi-name="contents-expand" aria-haspopup="true">
+				<span class="icon"><span class="docon docon-menu" aria-hidden="true"></span></span>
+				<span>Contents</span>
+			</button>
+		</div>
+		<div class="content-header-controls exit-focus">
+			<button type="button" class="ap-collapse-behavior ap-expanded button" data-bi-name="ap-collapse" aria-controls="action-panel">
+				<span class="icon"><span class="docon docon-exit-mode" aria-hidden="true"></span></span>
+				<span>Exit focus mode</span>
+			</button>
+		</div>
+		<div id="page-actions" class="is-flex-touch has-flex-justify-content-space-between-touch has-padding-none has-padding-none-mobile">
+			<ul class="action-list has-flex-justify-content-start-mobile is-flex is-flex-row has-flex-wrap">
+				<li>
+<div class="language dropdown has-caret">
+	<button class="dropdown-trigger button is-text is-small" aria-controls="language-menu" aria-expanded="false" title="Language" data-bi-name="language">
+		<span class="icon is-hidden-desktop has-margin-none">
+			<span class="docon docon-code-lang" aria-hidden="true"></span>
+		</span>
+		<span id="lang-title" class="is-visually-hidden-touch has-flex-align-self-start is-hidden-portrait">Language</span>
+		<span class="icon is-hidden-mobile is-hidden-tablet-only" aria-hidden="true">
+			<span class="docon docon-chevron-down-light expanded-indicator"></span>
+		</span>
+	</button>
+	<div class="dropdown-menu has-padding-small" name="language-selector" id="language-selector" role="menu">
+		<ul data-bi-name="language-links">
+				<li><a class="button is-text is-small is-fullwidth has-flex-justify-content-start" data-bi-name="lang-cpp" tabindex="0" aria-selected="false">C++</a></li>
+				<li><a class="button is-text is-small is-fullwidth has-flex-justify-content-start" data-bi-name="lang-csharp" tabindex="0" aria-selected="false">C#</a></li>
+				<li><a class="button is-text is-small is-fullwidth has-flex-justify-content-start" data-bi-name="lang-fsharp" tabindex="0" aria-selected="false">F#</a></li>
+				<li><a class="button is-text is-small is-fullwidth has-flex-justify-content-start" data-bi-name="lang-vb" tabindex="0" aria-selected="false">VB</a></li>
+		</ul>
+	</div>
+</div>				</li>
+				<li>
+					<button type="button" class="bookmark button is-text has-inner-focus is-small is-icon-only-touch" data-list-type="bookmarks" data-bi-name="bookmark">
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-single-bookmark"></span>
+						</span>
+						<span class="bookmark-status is-visually-hidden-touch is-hidden-portrait">Bookmark</span>
+					</button>
+				</li>
+							<li id="contenteditbtn">
+									<a href="https://github.com/dotnet/dotnet-api-docs/blob/master/xml/System.Diagnostics/Process.xml" class="button is-text has-inner-focus is-icon-only-touch is-small" title="Edit This Document" data-bi-name="edit" data-original_content_git_url="https://github.com/dotnet/dotnet-api-docs/blob/live/xml/System.Diagnostics/Process.xml" data-original_content_git_url_template="" data-pr_repo="" data-pr_branch="">
+									<span class="icon">
+										<span class="docon docon-edit-outline" aria-hidden="true"></span>
+									</span>
+									<span class="is-visually-hidden-touch is-hidden-portrait">Edit</span>
+								</a>
+							</li>
+				<li>
+<div class="sharing dropdown has-caret">
+	<button class="dropdown-trigger button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small is-icon-only-touch" aria-controls="sharing-menu" aria-expanded="false" title="Share This Document" data-bi-name="share">
+		<span class="icon" aria-hidden="true">
+			<span class="docon docon-sharing"></span>
+		</span>
+		<span class="is-visually-hidden-touch is-hidden-portrait">Share</span>
+	</button>
+	<div class="dropdown-menu has-padding-small" id="sharing-menu">
+		<ul data-bi-name="share-links">
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-twitter" data-bi-name="twitter">
+					<span class="icon">
+						<span class="docon docon-brand-twitter has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Twitter</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-linkedin" data-bi-name="linkedin">
+					<span class="icon">
+						<span class="docon docon-brand-linkedin has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>LinkedIn</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-facebook" data-bi-name="facebook">
+					<span class="icon">
+						<span class="docon docon-brand-facebook has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Facebook</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-email" data-bi-name="email">
+					<span class="icon">
+						<span class="docon docon-mail-message-fill has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Email</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>				</li>
+				<li>
+<div class="dropdown has-caret">
+	<button class="dropdown-trigger button is-text is-small is-icon-only-touch has-inner-focus"
+		aria-controls="theme-menu" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span class="is-visually-hidden-touch is-hidden-portrait">Theme</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu" role="menu">
+		<div class="theme-selector has-padding-small">
+			<div class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="light" role="menuitem">
+					<span class="theme-light has-margin-right-small">
+						<span
+							class="theme-selector-icon css-variable-support has-border is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Light					</span>
+				</button>
+			</div>
+			<div class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="dark" role="menuitem">
+					<span class="theme-dark has-margin-right-small">
+						<span
+							class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Dark					</span>
+				</button>
+			</div>
+			<div class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="high-contrast" role="menuitem">
+					<span class="theme-high-contrast has-margin-right-small">
+						<span
+							class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+High contrast					</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</div>				</li>
+				<li>
+					<a class="docs-sign-in auth-status-determined not-authenticated button is-text has-inner-focus has-text-primary is-small" href="#">Sign in</a>
+					<div class="dropdown has-caret auth-status-determined authenticated">
+						<button class="dropdown-trigger button is-text has-inner-focus is-small is-icon-only-touch has-inner-focus" aria-label="Your Account" aria-controls="user-menu" aria-expanded="false">
+							<span class="icon" aria-hidden="true">
+								<span class="image">
+									<img class="has-body-background-medium is-rounded" data-profile-property="avatarUrl">
+								</span>
+							</span>
+							<span class="is-inline-truncated has-margin-left-small" data-profile-property="userName"></span>
+						</button>
+						<div class="dropdown-menu box" id="user-menu" role="menu">
+							<div class="media is-user-dir">
+								<div class="media-left">
+									<span class="image is-64x64" aria-hidden="true">
+										<img class="has-body-background-medium is-rounded" data-profile-property="avatarUrl">
+									</span>
+								</div>
+								<div class="media-content">
+									<p class="title">
+										<span class="is-inline-truncated has-max-width-200" data-profile-property="userName"></span>
+									</p>
+									<p class="subtitle has-margin-bottom-none">
+										<span class="is-inline-truncated has-max-width-200" data-profile-property="upn"></span>
+									</p>
+									<ul class="is-unstyled has-margin-none has-margin-top-small">
+										<li><a href="/profile" data-profile-property="profileUrl">Profile</a></li>
+										<li><a href="/profile" data-profile-property="bookmarksUrl">Bookmarks</a></li>
+										<li><a href="/profile" data-profile-property="collectionsUrl">Collections</a></li>
+										<li><a class="docs-sign-out" href="#">Sign out</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<button type="button" class="contents-button button is-small is-text is-hidden-tablet has-inner-focus is-hidden-tablet" aria-label="Contents" data-bi-name="contents-expand-">
+				<span class="icon">
+					<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+				</span>
+				<span>Contents</span>
+			</button>
+		</div>
+	</div>
+
+		<div id="banner-holder" class="has-default-focus has-overflow-hidden">
+		</div>
+
+	<div id="disclaimer-holder" class="has-overflow-hidden has-default-focus"></div>
+	</div>
+
+	<div class="mainContainer  uhf-container has-top-padding  has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps is-gapless-mobile ">
+
+			<div id="left-container" class="left-container is-hidden-mobile column is-one-third-tablet is-one-quarter-desktop">
+				<nav id="affixed-left-container" class="is-fixed is-flex is-flex-column" role="navigation" aria-label="Primary"></nav>
+			</div>
+
+			<section class="primary-holder column is-two-thirds-tablet is-three-quarters-desktop">
+				<div class="columns is-gapless-mobile has-large-gaps ">
+
+
+				<div id="main-column" class="column  is-full is-four-fifths-desktop ">
+
+					<main id="main" role="main" class="content " data-bi-name="content" lang="en-us" dir="ltr">
+
+
+
+						
+
+
+
+						<!-- <content> -->
+							<h1>Process Class</h1>
+
+<h2 class="hiddenAnchor" id="definition">Definition</h2>
+
+<div class="metadata">
+		<dl class="attributeList">
+			<dt>Namespace:</dt>
+			<dd>
+				<span class="break-text"> <a class="xref" href="system.diagnostics?view=netframework-4.8" data-linktype="relative-path">System.Diagnostics</a> </span>
+			</dd>
+		</dl>
+
+		<dl class="attributeList">
+			<dt>Assemblies:</dt><dd>System.Diagnostics.Process.dll, System.dll, netstandard.dll</dd>
+		</dl>
+
+</div>	<div class="summaryHolder">
+		<div class="summary clearFix">
+			<p>Provides access to local and remote processes and enables you to start and stop local system processes.</p>
+
+			
+		</div>
+	</div>
+<nav id="center-doc-outline" class="doc-outline is-hidden-desktop" data-bi-name="intopic toc" role="navigation" aria-label="On page navigation">
+  <h3>In this article</h3>
+</nav>
+	<pre class="wrap"><code class="cpp lang-cpp" dir="ltr">public ref class Process : System::ComponentModel::Component</code></pre>
+	<pre class="wrap"><code class="csharp lang-csharp" dir="ltr">public class Process : System.ComponentModel.Component</code></pre>
+	<pre class="wrap"><code class="fsharp lang-fsharp" dir="ltr">type Process = class
+    inherit Component</code></pre>
+	<pre class="wrap"><code class="vb lang-vb" dir="ltr">Public Class Process
+Inherits Component</code></pre>
+	<dl class="attributeList stack">
+		<dt>Inheritance</dt>
+		<dd>
+		<div class="pdlHolder">
+				<div class="pdl"><a class="xref" href="system.object?view=netframework-4.8" data-linktype="relative-path">Object</a>
+</div>
+				<div class="pdl"><a class="xref" href="system.marshalbyrefobject?view=netframework-4.8" data-linktype="relative-path">MarshalByRefObject</a>
+</div>
+				<div class="pdl"><a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>
+</div>
+			     <span>Process</span>
+		</div>
+		</dd>
+	</dl>
+	<h2 id="">Examples</h2>
+	<p>The following example uses an instance of the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> class to start a process.</p>
+<pre><code class="lang-cpp" name="Process.Start_instance#1">#using &lt;System.dll&gt;
+using namespace System;
+using namespace System::Diagnostics;
+using namespace System::ComponentModel;
+
+int main()
+{
+    Process^ myProcess = gcnew Process;
+
+    try
+    {
+        myProcess-&gt;StartInfo-&gt;UseShellExecute = false;
+        // You can start any process, HelloWorld is a do-nothing example.
+        myProcess-&gt;StartInfo-&gt;FileName = &quot;C:\\HelloWorld.exe&quot;;
+        myProcess-&gt;StartInfo-&gt;CreateNoWindow = true;
+        myProcess-&gt;Start();
+        // This code assumes the process you are starting will terminate itself. 
+        // Given that is is started without a window so you cannot terminate it 
+        // on the desktop, it must terminate itself or you can do it programmatically
+        // from this application using the Kill method.
+    }
+    catch ( Exception^ e ) 
+    {
+        Console::WriteLine( e-&gt;Message );
+    }
+}
+</code></pre><pre><code class="lang-csharp" name="Process.Start_instance#1">using System;
+using System.Diagnostics;
+using System.ComponentModel;
+
+namespace MyProcessSample
+{
+    class MyProcess
+    {
+        public static void Main()
+        {
+            try
+            {
+                using (Process myProcess = new Process())
+                {
+                    myProcess.StartInfo.UseShellExecute = false;
+                    // You can start any process, HelloWorld is a do-nothing example.
+                    myProcess.StartInfo.FileName = &quot;C:\\HelloWorld.exe&quot;;
+                    myProcess.StartInfo.CreateNoWindow = true;
+                    myProcess.Start();
+                    // This code assumes the process you are starting will terminate itself. 
+                    // Given that is is started without a window so you cannot terminate it 
+                    // on the desktop, it must terminate itself or you can do it programmatically
+                    // from this application using the Kill method.
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+    }
+}
+</code></pre><pre><code class="lang-vb" name="Process.Start_instance#1">Imports System.Diagnostics
+Imports System.ComponentModel
+
+Namespace MyProcessSample
+    Class MyProcess
+        Public Shared Sub Main()
+            Try
+                Using myProcess As New Process()
+
+                    myProcess.StartInfo.UseShellExecute = False
+                    ' You can start any process, HelloWorld is a do-nothing example.
+                    myProcess.StartInfo.FileName = &quot;C:\\HelloWorld.exe&quot;
+                    myProcess.StartInfo.CreateNoWindow = True
+                    myProcess.Start()
+                    ' This code assumes the process you are starting will terminate itself. 
+                    ' Given that is is started without a window so you cannot terminate it 
+                    ' on the desktop, it must terminate itself or you can do it programmatically
+                    ' from this application using the Kill method.
+                End Using
+            Catch e As Exception
+                Console.WriteLine((e.Message))
+            End Try
+        End Sub
+    End Class
+End Namespace
+</code></pre>
+<p>The following example uses the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> class itself and a static <a class="xref" href="system.diagnostics.process.start?view=netframework-4.8" data-linktype="relative-path">Start</a> method to start a process.</p>
+<pre><code class="lang-cpp" name="Process.Start_static#1">#using &lt;System.dll&gt;
+
+using namespace System;
+using namespace System::Diagnostics;
+using namespace System::ComponentModel;
+
+// Opens the Internet Explorer application.
+void OpenApplication(String^ myFavoritesPath)
+{
+    // Start Internet Explorer. Defaults to the home page.
+    Process::Start(&quot;IExplore.exe&quot;);
+
+    // Display the contents of the favorites folder in the browser.
+    Process::Start(myFavoritesPath);
+}
+
+// Opens urls and .html documents using Internet Explorer.
+void OpenWithArguments()
+{
+    // url's are not considered documents. They can only be opened
+    // by passing them as arguments.
+    Process::Start(&quot;IExplore.exe&quot;, &quot;www.northwindtraders.com&quot;);
+
+    // Start a Web page using a browser associated with .html and .asp files.
+    Process::Start(&quot;IExplore.exe&quot;, &quot;C:\\myPath\\myFile.htm&quot;);
+    Process::Start(&quot;IExplore.exe&quot;, &quot;C:\\myPath\\myFile.asp&quot;);
+}
+
+// Uses the ProcessStartInfo class to start new processes,
+// both in a minimized mode.
+void OpenWithStartInfo()
+{
+    ProcessStartInfo^ startInfo = gcnew ProcessStartInfo(&quot;IExplore.exe&quot;);
+    startInfo-&gt;WindowStyle = ProcessWindowStyle::Minimized;
+    Process::Start(startInfo);
+    startInfo-&gt;Arguments = &quot;www.northwindtraders.com&quot;;
+    Process::Start(startInfo);
+}
+
+int main()
+{
+    // Get the path that stores favorite links.
+    String^ myFavoritesPath = Environment::GetFolderPath(Environment::SpecialFolder::Favorites);
+    OpenApplication(myFavoritesPath);
+    OpenWithArguments();
+    OpenWithStartInfo();
+}
+</code></pre><pre><code class="lang-csharp" name="Process.Start_static#1">using System;
+using System.Diagnostics;
+using System.ComponentModel;
+
+namespace MyProcessSample
+{
+    class MyProcess
+    {
+        // Opens the Internet Explorer application.
+        void OpenApplication(string myFavoritesPath)
+        {
+            // Start Internet Explorer. Defaults to the home page.
+            Process.Start(&quot;IExplore.exe&quot;);
+
+            // Display the contents of the favorites folder in the browser.
+            Process.Start(myFavoritesPath);
+        }
+
+        // Opens urls and .html documents using Internet Explorer.
+        void OpenWithArguments()
+        {
+            // url's are not considered documents. They can only be opened
+            // by passing them as arguments.
+            Process.Start(&quot;IExplore.exe&quot;, &quot;www.northwindtraders.com&quot;);
+
+            // Start a Web page using a browser associated with .html and .asp files.
+            Process.Start(&quot;IExplore.exe&quot;, &quot;C:\\myPath\\myFile.htm&quot;);
+            Process.Start(&quot;IExplore.exe&quot;, &quot;C:\\myPath\\myFile.asp&quot;);
+        }
+
+        // Uses the ProcessStartInfo class to start new processes,
+        // both in a minimized mode.
+        void OpenWithStartInfo()
+        {
+            ProcessStartInfo startInfo = new ProcessStartInfo(&quot;IExplore.exe&quot;);
+            startInfo.WindowStyle = ProcessWindowStyle.Minimized;
+
+            Process.Start(startInfo);
+
+            startInfo.Arguments = &quot;www.northwindtraders.com&quot;;
+
+            Process.Start(startInfo);
+        }
+
+        static void Main()
+        {
+            // Get the path that stores favorite links.
+            string myFavoritesPath =
+                Environment.GetFolderPath(Environment.SpecialFolder.Favorites);
+
+            MyProcess myProcess = new MyProcess();
+
+            myProcess.OpenApplication(myFavoritesPath);
+            myProcess.OpenWithArguments();
+            myProcess.OpenWithStartInfo();
+        }
+    }
+}
+</code></pre><pre><code class="lang-vb" name="Process.Start_static#1">Imports System.Diagnostics
+Imports System.ComponentModel
+
+Namespace MyProcessSample
+    Class MyProcess
+        ' Opens the Internet Explorer application.
+        Public Sub OpenApplication(myFavoritesPath As String)
+            ' Start Internet Explorer. Defaults to the home page.
+            Process.Start(&quot;IExplore.exe&quot;)
+
+            ' Display the contents of the favorites folder in the browser.
+            Process.Start(myFavoritesPath)
+        End Sub
+
+        ' Opens urls and .html documents using Internet Explorer.
+        Sub OpenWithArguments()
+            ' url's are not considered documents. They can only be opened
+            ' by passing them as arguments.
+            Process.Start(&quot;IExplore.exe&quot;, &quot;www.northwindtraders.com&quot;)
+
+            ' Start a Web page using a browser associated with .html and .asp files.
+            Process.Start(&quot;IExplore.exe&quot;, &quot;C:\myPath\myFile.htm&quot;)
+            Process.Start(&quot;IExplore.exe&quot;, &quot;C:\myPath\myFile.asp&quot;)
+        End Sub
+
+        ' Uses the ProcessStartInfo class to start new processes,
+        ' both in a minimized mode.
+        Sub OpenWithStartInfo()
+            Dim startInfo As New ProcessStartInfo(&quot;IExplore.exe&quot;)
+            startInfo.WindowStyle = ProcessWindowStyle.Minimized
+
+            Process.Start(startInfo)
+
+            startInfo.Arguments = &quot;www.northwindtraders.com&quot;
+
+            Process.Start(startInfo)
+        End Sub
+
+        Shared Sub Main()
+            ' Get the path that stores favorite links.
+            Dim myFavoritesPath As String = Environment.GetFolderPath(Environment.SpecialFolder.Favorites)
+
+            Dim myProcess As New MyProcess()
+
+            myProcess.OpenApplication(myFavoritesPath)
+            myProcess.OpenWithArguments()
+            myProcess.OpenWithStartInfo()
+        End Sub
+    End Class
+End Namespace 'MyProcessSample
+</code></pre>
+<p>The following F# example defines a <code>runProc</code> function that starts a process, captures all output and error information, and records the number of milliseconds that the process has run.  The <code>runProc</code> function has three parameters: the name of application to launch, the arguments to supply to the application, and the starting directory.</p>
+<pre><code class="lang-fsharp" name="System.Diagnostics.Process#1">open System
+open System.Diagnostics
+
+let runProc filename args startDir : seq&lt;string&gt; * seq&lt;string&gt; = 
+    let timer = Stopwatch.StartNew()
+    let procStartInfo = 
+        ProcessStartInfo(
+            RedirectStandardOutput = true,
+            RedirectStandardError = true,
+            UseShellExecute = false,
+            FileName = filename,
+            Arguments = args
+        )
+    match startDir with | Some d -&gt; procStartInfo.WorkingDirectory &lt;- d | _ -&gt; ()
+
+    let outputs = System.Collections.Generic.List&lt;string&gt;()
+    let errors = System.Collections.Generic.List&lt;string&gt;()
+    let outputHandler f (_sender:obj) (args:DataReceivedEventArgs) = f args.Data
+    use p = new Process(StartInfo = procStartInfo)
+    p.OutputDataReceived.AddHandler(DataReceivedEventHandler (outputHandler outputs.Add))
+    p.ErrorDataReceived.AddHandler(DataReceivedEventHandler (outputHandler errors.Add))
+    let started = 
+        try
+            p.Start()
+        with | ex -&gt;
+            ex.Data.Add(&quot;filename&quot;, filename)
+            reraise()
+    if not started then
+        failwithf &quot;Failed to start process %s&quot; filename
+    printfn &quot;Started %s with pid %i&quot; p.ProcessName p.Id
+    p.BeginOutputReadLine()
+    p.BeginErrorReadLine()
+    p.WaitForExit()
+    timer.Stop()
+    printfn &quot;Finished %s after %A milliseconds&quot; filename timer.ElapsedMilliseconds
+    let cleanOut l = l |&gt; Seq.filter (fun o -&gt; String.IsNullOrEmpty o |&gt; not)
+    cleanOut outputs,cleanOut errors
+</code></pre>
+<p>The code for the <code>runProc</code> function was written by <a href="http://fssnip.net/authors/ImaginaryDevelopment" data-linktype="external">ImaginaryDevelopment</a> and is available under the <a href="https://opensource.org/licenses/ms-pl" data-linktype="external">Microsoft Public License</a>.</p>
+
+
+	<h2 id="">Remarks</h2>
+	<p>A <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component provides access to a process that is running on a computer. A process, in the simplest terms, is a running app. A thread is the basic unit to which the operating system allocates processor time. A thread can execute any part of the code of the process, including parts currently being executed by another thread.</p>
+<p>The <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component is a useful tool for starting, stopping, controlling, and monitoring apps. You can use the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component, to obtain a list of the processes that are running, or you can start a new process. A <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component is used to access system processes. After a <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component has been initialized, it can be used to obtain information about the running process. Such information includes the set of threads, the loaded modules (.dll and .exe files), and performance information such as the amount of memory the process is using.</p>
+<p>This type implements the <a class="xref" href="system.idisposable?view=netframework-4.8" data-linktype="relative-path">IDisposable</a> interface. When you have finished using the type, you should dispose of it either directly or indirectly. To dispose of the type directly, call its <a class="xref" href="system.idisposable.dispose?view=netframework-4.8" data-linktype="relative-path">Dispose</a> method in a <code>try</code>/<code>finally</code> block. To dispose of it indirectly, use a language construct such as <code>using</code> (in C#) or <code>Using</code> (in Visual Basic). For more information, see the &quot;Using an Object that Implements IDisposable&quot; section in the <a class="xref" href="system.idisposable?view=netframework-4.8" data-linktype="relative-path">IDisposable</a> interface topic.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>32-bit processes cannot access the modules of a 64-bit process. If you try to get information about a 64-bit process from a 32-bit process, you will get a <a class="xref" href="system.componentmodel.win32exception?view=netframework-4.8" data-linktype="relative-path">Win32Exception</a> exception. A 64-bit process, on the other hand, can access the modules of a 32-bit process.</p>
+</div>
+<p>The process component obtains information about a group of properties all at once. After the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component has obtained information about one member of any group, it will cache the values for the other properties in that group and not obtain new information about the other members of the group until you call the <a class="xref" href="system.diagnostics.process.refresh?view=netframework-4.8" data-linktype="relative-path">Refresh</a> method. Therefore, a property value is not guaranteed to be any newer than the last call to the <a class="xref" href="system.diagnostics.process.refresh?view=netframework-4.8" data-linktype="relative-path">Refresh</a> method. The group breakdowns are operating-system dependent.</p>
+<p>If you have a path variable declared in your system using quotes, you must fully qualify that path when starting any process found in that location. Otherwise, the system will not find the path. For example, if <code>c:\mypath</code> is not in your path, and you add it using quotation marks: <code>path = %path%;&quot;c:\mypath&quot;</code>, you must fully qualify any process in <code>c:\mypath</code> when starting it.</p>
+<p>A system process is uniquely identified on the system by its process identifier. Like many Windows resources, a process is also identified by its handle, which might not be unique on the computer. A handle is the generic term for an identifier of a resource. The operating system persists the process handle, which is accessed through the <a class="xref" href="system.diagnostics.process.handle?view=netframework-4.8" data-linktype="relative-path">Handle</a> property of the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component, even when the process has exited. Thus, you can get the process's administrative information, such as the <a class="xref" href="system.diagnostics.process.exitcode?view=netframework-4.8" data-linktype="relative-path">ExitCode</a> (usually either zero for success or a nonzero error code) and the <a class="xref" href="system.diagnostics.process.exittime?view=netframework-4.8" data-linktype="relative-path">ExitTime</a>. Handles are an extremely valuable resource, so leaking handles is more virulent than leaking memory.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>This class contains a link demand and an inheritance demand at the class level that applies to all members. A <a class="xref" href="system.security.securityexception?view=netframework-4.8" data-linktype="relative-path">SecurityException</a> is thrown when either the immediate caller or the derived class does not have full-trust permission. For details about security demands, see <a href="../framework/misc/link-demands?view=netframework-4.8" data-linktype="relative-path">Link Demands</a>.</p>
+</div>
+<p><a name="Core"></a></p>
+<h3 id="-notes">.NET Core Notes</h3>
+<p>In the .NET Framework, the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> class by default uses <a class="xref" href="system.console?view=netframework-4.8" data-linktype="relative-path">Console</a> encodings, which are typically code page encodings, for the input, output, and error streams. For example code, on systems whose culture is English (United States), code page 437 is the default encoding for the <a class="xref" href="system.console?view=netframework-4.8" data-linktype="relative-path">Console</a> class. However, .NET Core may make only a limited subset of these encodings available. If this is the case, it uses <a class="xref" href="system.text.encoding.utf8?view=netframework-4.8" data-linktype="relative-path">Encoding.UTF8</a> as the default encoding.</p>
+<p>If a <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> object depends on specific code page encodings, you can still make them available by doing the following <em>before</em> you call any <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> methods:</p>
+<ol>
+<li><p>Add a reference to the System.Text.Encoding.CodePages.dll assembly to your project.</p>
+</li>
+<li><p>Retrieve the <a class="xref" href="system.text.encodingprovider?view=netframework-4.8" data-linktype="relative-path">EncodingProvider</a> object from the <a class="xref" href="system.text.codepagesencodingprovider.instance?view=netframework-4.8" data-linktype="relative-path">CodePagesEncodingProvider.Instance</a> property.</p>
+</li>
+<li><p>Pass the <a class="xref" href="system.text.encodingprovider?view=netframework-4.8" data-linktype="relative-path">EncodingProvider</a> object to the <a class="xref" href="system.text.encoding.registerprovider?view=netframework-4.8" data-linktype="relative-path">Encoding.RegisterProvider</a> method to make the additional encodings supported by the encoding provider available.</p>
+</li>
+</ol>
+<p>The <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> class will then automatically use the default system encoding rather than UTF8, provided that you have registered the encoding provider before calling any <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> methods.</p>
+
+
+
+	<h2 id="constructors">
+		Constructors
+	</h2>
+	<table class="nameValue">
+        	<tr>
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.-ctor?view=netframework-4.8#System_Diagnostics_Process__ctor" data-linktype="relative-path">Process()</a>
+	</span>
+</td>
+	<td>
+		<p>Initializes a new instance of the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> class.</p>
+
+	</td>
+
+        	</tr>
+	</table>
+
+
+	<h2 id="properties">
+		Properties
+	</h2>
+	<table class="nameValue">
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.basepriority?view=netframework-4.8#System_Diagnostics_Process_BasePriority" data-linktype="relative-path">BasePriority</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the base priority of the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.componentmodel.component.canraiseevents?view=netframework-4.8#System_ComponentModel_Component_CanRaiseEvents" data-linktype="relative-path">CanRaiseEvents</a>
+		</span>
+	</td>
+	<td>
+		<p>Gets a value indicating whether the component can raise an event.</p>
+
+		(Inherited from <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.componentmodel.component.container?view=netframework-4.8#System_ComponentModel_Component_Container" data-linktype="relative-path">Container</a>
+		</span>
+	</td>
+	<td>
+		<p>Gets the <a class="xref" href="system.componentmodel.icontainer?view=netframework-4.8" data-linktype="relative-path">IContainer</a> that contains the <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>.</p>
+
+		(Inherited from <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.componentmodel.component.designmode?view=netframework-4.8#System_ComponentModel_Component_DesignMode" data-linktype="relative-path">DesignMode</a>
+		</span>
+	</td>
+	<td>
+		<p>Gets a value that indicates whether the <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a> is currently in design mode.</p>
+
+		(Inherited from <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>)
+	</td>
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.enableraisingevents?view=netframework-4.8#System_Diagnostics_Process_EnableRaisingEvents" data-linktype="relative-path">EnableRaisingEvents</a>
+	</span>
+</td>
+	<td>
+		<p>Gets or sets whether the <a class="xref" href="system.diagnostics.process.exited?view=netframework-4.8" data-linktype="relative-path">Exited</a> event should be raised when the process terminates.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.componentmodel.component.events?view=netframework-4.8#System_ComponentModel_Component_Events" data-linktype="relative-path">Events</a>
+		</span>
+	</td>
+	<td>
+		<p>Gets the list of event handlers that are attached to this <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>.</p>
+
+		(Inherited from <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>)
+	</td>
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.exitcode?view=netframework-4.8#System_Diagnostics_Process_ExitCode" data-linktype="relative-path">ExitCode</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the value that the associated process specified when it terminated.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.exittime?view=netframework-4.8#System_Diagnostics_Process_ExitTime" data-linktype="relative-path">ExitTime</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the time that the associated process exited.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.handle?view=netframework-4.8#System_Diagnostics_Process_Handle" data-linktype="relative-path">Handle</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the native handle of the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.handlecount?view=netframework-4.8#System_Diagnostics_Process_HandleCount" data-linktype="relative-path">HandleCount</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the number of handles opened by the process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.hasexited?view=netframework-4.8#System_Diagnostics_Process_HasExited" data-linktype="relative-path">HasExited</a>
+	</span>
+</td>
+	<td>
+		<p>Gets a value indicating whether the associated process has been terminated.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.id?view=netframework-4.8#System_Diagnostics_Process_Id" data-linktype="relative-path">Id</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the unique identifier for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.machinename?view=netframework-4.8#System_Diagnostics_Process_MachineName" data-linktype="relative-path">MachineName</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the name of the computer the associated process is running on.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.mainmodule?view=netframework-4.8#System_Diagnostics_Process_MainModule" data-linktype="relative-path">MainModule</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the main module for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.mainwindowhandle?view=netframework-4.8#System_Diagnostics_Process_MainWindowHandle" data-linktype="relative-path">MainWindowHandle</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the window handle of the main window of the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.mainwindowtitle?view=netframework-4.8#System_Diagnostics_Process_MainWindowTitle" data-linktype="relative-path">MainWindowTitle</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the caption of the main window of the process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.maxworkingset?view=netframework-4.8#System_Diagnostics_Process_MaxWorkingSet" data-linktype="relative-path">MaxWorkingSet</a>
+	</span>
+</td>
+	<td>
+		<p>Gets or sets the maximum allowable working set size, in bytes, for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.minworkingset?view=netframework-4.8#System_Diagnostics_Process_MinWorkingSet" data-linktype="relative-path">MinWorkingSet</a>
+	</span>
+</td>
+	<td>
+		<p>Gets or sets the minimum allowable working set size, in bytes, for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.modules?view=netframework-4.8#System_Diagnostics_Process_Modules" data-linktype="relative-path">Modules</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the modules that have been loaded by the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.nonpagedsystemmemorysize?view=netframework-4.8#System_Diagnostics_Process_NonpagedSystemMemorySize" data-linktype="relative-path">NonpagedSystemMemorySize</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the amount of nonpaged system memory, in bytes, allocated for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.nonpagedsystemmemorysize64?view=netframework-4.8#System_Diagnostics_Process_NonpagedSystemMemorySize64" data-linktype="relative-path">NonpagedSystemMemorySize64</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the amount of nonpaged system memory, in bytes, allocated for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.pagedmemorysize?view=netframework-4.8#System_Diagnostics_Process_PagedMemorySize" data-linktype="relative-path">PagedMemorySize</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the amount of paged memory, in bytes, allocated for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.pagedmemorysize64?view=netframework-4.8#System_Diagnostics_Process_PagedMemorySize64" data-linktype="relative-path">PagedMemorySize64</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the amount of paged memory, in bytes, allocated for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.pagedsystemmemorysize?view=netframework-4.8#System_Diagnostics_Process_PagedSystemMemorySize" data-linktype="relative-path">PagedSystemMemorySize</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the amount of pageable system memory, in bytes, allocated for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.pagedsystemmemorysize64?view=netframework-4.8#System_Diagnostics_Process_PagedSystemMemorySize64" data-linktype="relative-path">PagedSystemMemorySize64</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the amount of pageable system memory, in bytes, allocated for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.peakpagedmemorysize?view=netframework-4.8#System_Diagnostics_Process_PeakPagedMemorySize" data-linktype="relative-path">PeakPagedMemorySize</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the maximum amount of memory in the virtual memory paging file, in bytes, used by the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.peakpagedmemorysize64?view=netframework-4.8#System_Diagnostics_Process_PeakPagedMemorySize64" data-linktype="relative-path">PeakPagedMemorySize64</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the maximum amount of memory in the virtual memory paging file, in bytes, used by the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.peakvirtualmemorysize?view=netframework-4.8#System_Diagnostics_Process_PeakVirtualMemorySize" data-linktype="relative-path">PeakVirtualMemorySize</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the maximum amount of virtual memory, in bytes, used by the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.peakvirtualmemorysize64?view=netframework-4.8#System_Diagnostics_Process_PeakVirtualMemorySize64" data-linktype="relative-path">PeakVirtualMemorySize64</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the maximum amount of virtual memory, in bytes, used by the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.peakworkingset?view=netframework-4.8#System_Diagnostics_Process_PeakWorkingSet" data-linktype="relative-path">PeakWorkingSet</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the peak working set size for the associated process, in bytes.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.peakworkingset64?view=netframework-4.8#System_Diagnostics_Process_PeakWorkingSet64" data-linktype="relative-path">PeakWorkingSet64</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the maximum amount of physical memory, in bytes, used by the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.priorityboostenabled?view=netframework-4.8#System_Diagnostics_Process_PriorityBoostEnabled" data-linktype="relative-path">PriorityBoostEnabled</a>
+	</span>
+</td>
+	<td>
+		<p>Gets or sets a value indicating whether the associated process priority should temporarily be boosted by the operating system when the main window has the focus.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.priorityclass?view=netframework-4.8#System_Diagnostics_Process_PriorityClass" data-linktype="relative-path">PriorityClass</a>
+	</span>
+</td>
+	<td>
+		<p>Gets or sets the overall priority category for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.privatememorysize?view=netframework-4.8#System_Diagnostics_Process_PrivateMemorySize" data-linktype="relative-path">PrivateMemorySize</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the amount of private memory, in bytes, allocated for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.privatememorysize64?view=netframework-4.8#System_Diagnostics_Process_PrivateMemorySize64" data-linktype="relative-path">PrivateMemorySize64</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the amount of private memory, in bytes, allocated for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.privilegedprocessortime?view=netframework-4.8#System_Diagnostics_Process_PrivilegedProcessorTime" data-linktype="relative-path">PrivilegedProcessorTime</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the privileged processor time for this process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.processname?view=netframework-4.8#System_Diagnostics_Process_ProcessName" data-linktype="relative-path">ProcessName</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the name of the process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.processoraffinity?view=netframework-4.8#System_Diagnostics_Process_ProcessorAffinity" data-linktype="relative-path">ProcessorAffinity</a>
+	</span>
+</td>
+	<td>
+		<p>Gets or sets the processors on which the threads in this process can be scheduled to run.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.responding?view=netframework-4.8#System_Diagnostics_Process_Responding" data-linktype="relative-path">Responding</a>
+	</span>
+</td>
+	<td>
+		<p>Gets a value indicating whether the user interface of the process is responding.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.safehandle?view=netframework-4.8#System_Diagnostics_Process_SafeHandle" data-linktype="relative-path">SafeHandle</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the native handle to this process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.sessionid?view=netframework-4.8#System_Diagnostics_Process_SessionId" data-linktype="relative-path">SessionId</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the Terminal Services session identifier for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.componentmodel.component.site?view=netframework-4.8#System_ComponentModel_Component_Site" data-linktype="relative-path">Site</a>
+		</span>
+	</td>
+	<td>
+		<p>Gets or sets the <a class="xref" href="system.componentmodel.isite?view=netframework-4.8" data-linktype="relative-path">ISite</a> of the <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>.</p>
+
+		(Inherited from <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>)
+	</td>
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.standarderror?view=netframework-4.8#System_Diagnostics_Process_StandardError" data-linktype="relative-path">StandardError</a>
+	</span>
+</td>
+	<td>
+		<p>Gets a stream used to read the error output of the application.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.standardinput?view=netframework-4.8#System_Diagnostics_Process_StandardInput" data-linktype="relative-path">StandardInput</a>
+	</span>
+</td>
+	<td>
+		<p>Gets a stream used to write the input of the application.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.standardoutput?view=netframework-4.8#System_Diagnostics_Process_StandardOutput" data-linktype="relative-path">StandardOutput</a>
+	</span>
+</td>
+	<td>
+		<p>Gets a stream used to read the textual output of the application.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.startinfo?view=netframework-4.8#System_Diagnostics_Process_StartInfo" data-linktype="relative-path">StartInfo</a>
+	</span>
+</td>
+	<td>
+		<p>Gets or sets the properties to pass to the <a class="xref" href="system.diagnostics.process.start?view=netframework-4.8#System_Diagnostics_Process_Start" data-linktype="relative-path">Start()</a> method of the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a>.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.starttime?view=netframework-4.8#System_Diagnostics_Process_StartTime" data-linktype="relative-path">StartTime</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the time that the associated process was started.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.synchronizingobject?view=netframework-4.8#System_Diagnostics_Process_SynchronizingObject" data-linktype="relative-path">SynchronizingObject</a>
+	</span>
+</td>
+	<td>
+		<p>Gets or sets the object used to marshal the event handler calls that are issued as a result of a process exit event.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.threads?view=netframework-4.8#System_Diagnostics_Process_Threads" data-linktype="relative-path">Threads</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the set of threads that are running in the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.totalprocessortime?view=netframework-4.8#System_Diagnostics_Process_TotalProcessorTime" data-linktype="relative-path">TotalProcessorTime</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the total processor time for this process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.userprocessortime?view=netframework-4.8#System_Diagnostics_Process_UserProcessorTime" data-linktype="relative-path">UserProcessorTime</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the user processor time for this process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.virtualmemorysize?view=netframework-4.8#System_Diagnostics_Process_VirtualMemorySize" data-linktype="relative-path">VirtualMemorySize</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the size of the process's virtual memory, in bytes.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.virtualmemorysize64?view=netframework-4.8#System_Diagnostics_Process_VirtualMemorySize64" data-linktype="relative-path">VirtualMemorySize64</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the amount of the virtual memory, in bytes, allocated for the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.workingset?view=netframework-4.8#System_Diagnostics_Process_WorkingSet" data-linktype="relative-path">WorkingSet</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the associated process's physical memory usage, in bytes.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.workingset64?view=netframework-4.8#System_Diagnostics_Process_WorkingSet64" data-linktype="relative-path">WorkingSet64</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the amount of physical memory, in bytes, allocated for the associated process.</p>
+
+	</td>
+
+        	</tr>
+	</table>
+
+
+	<h2 id="methods" data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 netframework-1.1 dotnet-uwp-10.0 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 ">
+		Methods
+	</h2>
+	<table class="nameValue">
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.beginerrorreadline?view=netframework-4.8#System_Diagnostics_Process_BeginErrorReadLine" data-linktype="relative-path">BeginErrorReadLine()</a>
+	</span>
+</td>
+	<td>
+		<p>Begins asynchronous read operations on the redirected <a class="xref" href="system.diagnostics.process.standarderror?view=netframework-4.8#System_Diagnostics_Process_StandardError" data-linktype="relative-path">StandardError</a> stream of the application.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.beginoutputreadline?view=netframework-4.8#System_Diagnostics_Process_BeginOutputReadLine" data-linktype="relative-path">BeginOutputReadLine()</a>
+	</span>
+</td>
+	<td>
+		<p>Begins asynchronous read operations on the redirected <a class="xref" href="system.diagnostics.process.standardoutput?view=netframework-4.8#System_Diagnostics_Process_StandardOutput" data-linktype="relative-path">StandardOutput</a> stream of the application.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.cancelerrorread?view=netframework-4.8#System_Diagnostics_Process_CancelErrorRead" data-linktype="relative-path">CancelErrorRead()</a>
+	</span>
+</td>
+	<td>
+		<p>Cancels the asynchronous read operation on the redirected <a class="xref" href="system.diagnostics.process.standarderror?view=netframework-4.8#System_Diagnostics_Process_StandardError" data-linktype="relative-path">StandardError</a> stream of an application.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.canceloutputread?view=netframework-4.8#System_Diagnostics_Process_CancelOutputRead" data-linktype="relative-path">CancelOutputRead()</a>
+	</span>
+</td>
+	<td>
+		<p>Cancels the asynchronous read operation on the redirected <a class="xref" href="system.diagnostics.process.standardoutput?view=netframework-4.8#System_Diagnostics_Process_StandardOutput" data-linktype="relative-path">StandardOutput</a> stream of an application.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.close?view=netframework-4.8#System_Diagnostics_Process_Close" data-linktype="relative-path">Close()</a>
+	</span>
+</td>
+	<td>
+		<p>Frees all the resources that are associated with this component.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.closemainwindow?view=netframework-4.8#System_Diagnostics_Process_CloseMainWindow" data-linktype="relative-path">CloseMainWindow()</a>
+	</span>
+</td>
+	<td>
+		<p>Closes a process that has a user interface by sending a close message to its main window.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.marshalbyrefobject.createobjref?view=netframework-4.8#System_MarshalByRefObject_CreateObjRef_System_Type_" data-linktype="relative-path">CreateObjRef(Type)</a>
+		</span>
+	</td>
+	<td>
+		<p>Creates an object that contains all the relevant information required to generate a proxy used to communicate with a remote object.</p>
+
+		(Inherited from <a class="xref" href="system.marshalbyrefobject?view=netframework-4.8" data-linktype="relative-path">MarshalByRefObject</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 ">	
+        				<td colspan="2">
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.dispose?view=netframework-4.8#System_Diagnostics_Process_Dispose" data-linktype="relative-path">Dispose()</a>
+	</span>
+</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.dispose?view=netframework-4.8#System_Diagnostics_Process_Dispose_System_Boolean_" data-linktype="relative-path">Dispose(Boolean)</a>
+	</span>
+</td>
+	<td>
+		<p>Release all resources used by this process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.enterdebugmode?view=netframework-4.8#System_Diagnostics_Process_EnterDebugMode" data-linktype="relative-path">EnterDebugMode()</a>
+	</span>
+</td>
+	<td>
+		<p>Puts a <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component in state to interact with operating system processes that run in a special mode by enabling the native property <code data-dev-comment-type="langword">SeDebugPrivilege</code> on the current thread.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.object.equals?view=netframework-4.8#System_Object_Equals_System_Object_" data-linktype="relative-path">Equals(Object)</a>
+		</span>
+	</td>
+	<td>
+		<p>Determines whether the specified object is equal to the current object.</p>
+
+		(Inherited from <a class="xref" href="system.object?view=netframework-4.8" data-linktype="relative-path">Object</a>)
+	</td>
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.getcurrentprocess?view=netframework-4.8#System_Diagnostics_Process_GetCurrentProcess" data-linktype="relative-path">GetCurrentProcess()</a>
+	</span>
+</td>
+	<td>
+		<p>Gets a new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component and associates it with the currently active process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.object.gethashcode?view=netframework-4.8#System_Object_GetHashCode" data-linktype="relative-path">GetHashCode()</a>
+		</span>
+	</td>
+	<td>
+		<p>Serves as the default hash function.</p>
+
+		(Inherited from <a class="xref" href="system.object?view=netframework-4.8" data-linktype="relative-path">Object</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.marshalbyrefobject.getlifetimeservice?view=netframework-4.8#System_MarshalByRefObject_GetLifetimeService" data-linktype="relative-path">GetLifetimeService()</a>
+		</span>
+	</td>
+	<td>
+		<p>Retrieves the current lifetime service object that controls the lifetime policy for this instance.</p>
+
+		(Inherited from <a class="xref" href="system.marshalbyrefobject?view=netframework-4.8" data-linktype="relative-path">MarshalByRefObject</a>)
+	</td>
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.getprocessbyid?view=netframework-4.8#System_Diagnostics_Process_GetProcessById_System_Int32_" data-linktype="relative-path">GetProcessById(Int32)</a>
+	</span>
+</td>
+	<td>
+		<p>Returns a new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component, given the identifier of a process on the local computer.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.getprocessbyid?view=netframework-4.8#System_Diagnostics_Process_GetProcessById_System_Int32_System_String_" data-linktype="relative-path">GetProcessById(Int32, String)</a>
+	</span>
+</td>
+	<td>
+		<p>Returns a new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component, given a process identifier and the name of a computer on the network.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.getprocesses?view=netframework-4.8#System_Diagnostics_Process_GetProcesses" data-linktype="relative-path">GetProcesses()</a>
+	</span>
+</td>
+	<td>
+		<p>Creates a new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component for each process resource on the local computer.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.getprocesses?view=netframework-4.8#System_Diagnostics_Process_GetProcesses_System_String_" data-linktype="relative-path">GetProcesses(String)</a>
+	</span>
+</td>
+	<td>
+		<p>Creates a new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component for each process resource on the specified computer.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.getprocessesbyname?view=netframework-4.8#System_Diagnostics_Process_GetProcessesByName_System_String_" data-linktype="relative-path">GetProcessesByName(String)</a>
+	</span>
+</td>
+	<td>
+		<p>Creates an array of new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> components and associates them with all the process resources on the local computer that share the specified process name.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.getprocessesbyname?view=netframework-4.8#System_Diagnostics_Process_GetProcessesByName_System_String_System_String_" data-linktype="relative-path">GetProcessesByName(String, String)</a>
+	</span>
+</td>
+	<td>
+		<p>Creates an array of new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> components and associates them with all the process resources on a remote computer that share the specified process name.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.componentmodel.component.getservice?view=netframework-4.8#System_ComponentModel_Component_GetService_System_Type_" data-linktype="relative-path">GetService(Type)</a>
+		</span>
+	</td>
+	<td>
+		<p>Returns an object that represents a service provided by the <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a> or by its <a class="xref" href="system.componentmodel.container?view=netframework-4.8" data-linktype="relative-path">Container</a>.</p>
+
+		(Inherited from <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.object.gettype?view=netframework-4.8#System_Object_GetType" data-linktype="relative-path">GetType()</a>
+		</span>
+	</td>
+	<td>
+		<p>Gets the <a class="xref" href="system.type?view=netframework-4.8" data-linktype="relative-path">Type</a> of the current instance.</p>
+
+		(Inherited from <a class="xref" href="system.object?view=netframework-4.8" data-linktype="relative-path">Object</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.marshalbyrefobject.initializelifetimeservice?view=netframework-4.8#System_MarshalByRefObject_InitializeLifetimeService" data-linktype="relative-path">InitializeLifetimeService()</a>
+		</span>
+	</td>
+	<td>
+		<p>Obtains a lifetime service object to control the lifetime policy for this instance.</p>
+
+		(Inherited from <a class="xref" href="system.marshalbyrefobject?view=netframework-4.8" data-linktype="relative-path">MarshalByRefObject</a>)
+	</td>
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.kill?view=netframework-4.8#System_Diagnostics_Process_Kill" data-linktype="relative-path">Kill()</a>
+	</span>
+</td>
+	<td>
+		<p>Immediately stops the associated process.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.kill?view=netframework-4.8#System_Diagnostics_Process_Kill_System_Boolean_" data-linktype="relative-path">Kill(Boolean)</a>
+	</span>
+</td>
+	<td>
+		<p>Immediately stops the associated process, and optionally its child/descendent processes.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.leavedebugmode?view=netframework-4.8#System_Diagnostics_Process_LeaveDebugMode" data-linktype="relative-path">LeaveDebugMode()</a>
+	</span>
+</td>
+	<td>
+		<p>Takes a <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component out of the state that lets it interact with operating system processes that run in a special mode.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.object.memberwiseclone?view=netframework-4.8#System_Object_MemberwiseClone" data-linktype="relative-path">MemberwiseClone()</a>
+		</span>
+	</td>
+	<td>
+		<p>Creates a shallow copy of the current <a class="xref" href="system.object?view=netframework-4.8" data-linktype="relative-path">Object</a>.</p>
+
+		(Inherited from <a class="xref" href="system.object?view=netframework-4.8" data-linktype="relative-path">Object</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.marshalbyrefobject.memberwiseclone?view=netframework-4.8#System_MarshalByRefObject_MemberwiseClone_System_Boolean_" data-linktype="relative-path">MemberwiseClone(Boolean)</a>
+		</span>
+	</td>
+	<td>
+		<p>Creates a shallow copy of the current <a class="xref" href="system.marshalbyrefobject?view=netframework-4.8" data-linktype="relative-path">MarshalByRefObject</a> object.</p>
+
+		(Inherited from <a class="xref" href="system.marshalbyrefobject?view=netframework-4.8" data-linktype="relative-path">MarshalByRefObject</a>)
+	</td>
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.onexited?view=netframework-4.8#System_Diagnostics_Process_OnExited" data-linktype="relative-path">OnExited()</a>
+	</span>
+</td>
+	<td>
+		<p>Raises the <a class="xref" href="system.diagnostics.process.exited?view=netframework-4.8" data-linktype="relative-path">Exited</a> event.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.refresh?view=netframework-4.8#System_Diagnostics_Process_Refresh" data-linktype="relative-path">Refresh()</a>
+	</span>
+</td>
+	<td>
+		<p>Discards any information about the associated process that has been cached inside the process component.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.start?view=netframework-4.8#System_Diagnostics_Process_Start" data-linktype="relative-path">Start()</a>
+	</span>
+</td>
+	<td>
+		<p>Starts (or reuses) the process resource that is specified by the <a class="xref" href="system.diagnostics.process.startinfo?view=netframework-4.8#System_Diagnostics_Process_StartInfo" data-linktype="relative-path">StartInfo</a> property of this <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component and associates it with the component.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.start?view=netframework-4.8#System_Diagnostics_Process_Start_System_Diagnostics_ProcessStartInfo_" data-linktype="relative-path">Start(ProcessStartInfo)</a>
+	</span>
+</td>
+	<td>
+		<p>Starts the process resource that is specified by the parameter containing process start information (for example, the file name of the process to start) and associates the resource with a new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.start?view=netframework-4.8#System_Diagnostics_Process_Start_System_String_" data-linktype="relative-path">Start(String)</a>
+	</span>
+</td>
+	<td>
+		<p>Starts a process resource by specifying the name of a document or application file and associates the resource with a new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.start?view=netframework-4.8#System_Diagnostics_Process_Start_System_String_System_String_" data-linktype="relative-path">Start(String, String)</a>
+	</span>
+</td>
+	<td>
+		<p>Starts a process resource by specifying the name of an application and a set of command-line arguments, and associates the resource with a new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.start?view=netframework-4.8#System_Diagnostics_Process_Start_System_String_System_String_System_Security_SecureString_System_String_" data-linktype="relative-path">Start(String, String, SecureString, String)</a>
+	</span>
+</td>
+	<td>
+		<p>Starts a process resource by specifying the name of an application, a user name, a password, and a domain and associates the resource with a new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.start?view=netframework-4.8#System_Diagnostics_Process_Start_System_String_System_String_System_String_System_Security_SecureString_System_String_" data-linktype="relative-path">Start(String, String, String, SecureString, String)</a>
+	</span>
+</td>
+	<td>
+		<p>Starts a process resource by specifying the name of an application, a set of command-line arguments, a user name, a password, and a domain and associates the resource with a new <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.tostring?view=netframework-4.8#System_Diagnostics_Process_ToString" data-linktype="relative-path">ToString()</a>
+	</span>
+</td>
+	<td>
+		<p>Formats the process's name as a string, combined with the parent component type, if applicable.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.waitforexit?view=netframework-4.8#System_Diagnostics_Process_WaitForExit" data-linktype="relative-path">WaitForExit()</a>
+	</span>
+</td>
+	<td>
+		<p>Instructs the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component to wait indefinitely for the associated process to exit.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.waitforexit?view=netframework-4.8#System_Diagnostics_Process_WaitForExit_System_Int32_" data-linktype="relative-path">WaitForExit(Int32)</a>
+	</span>
+</td>
+	<td>
+		<p>Instructs the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component to wait the specified number of milliseconds for the associated process to exit.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.waitforinputidle?view=netframework-4.8#System_Diagnostics_Process_WaitForInputIdle" data-linktype="relative-path">WaitForInputIdle()</a>
+	</span>
+</td>
+	<td>
+		<p>Causes the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component to wait indefinitely for the associated process to enter an idle state. This overload applies only to processes with a user interface and, therefore, a message loop.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.waitforinputidle?view=netframework-4.8#System_Diagnostics_Process_WaitForInputIdle_System_Int32_" data-linktype="relative-path">WaitForInputIdle(Int32)</a>
+	</span>
+</td>
+	<td>
+		<p>Causes the <a class="xref" href="system.diagnostics.process?view=netframework-4.8" data-linktype="relative-path">Process</a> component to wait the specified number of milliseconds for the associated process to enter an idle state. This overload applies only to processes with a user interface and, therefore, a message loop.</p>
+
+	</td>
+
+        	</tr>
+	</table>
+
+
+	<h2 id="events" data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 netcore-1.0 netcore-1.1 ">
+		Events
+	</h2>
+	<table class="nameValue">
+        	<tr data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+		<span class="break-text">
+			<a class="xref" href="system.componentmodel.component.disposed?view=netframework-4.8" data-linktype="relative-path">Disposed</a>
+		</span>
+	</td>
+	<td>
+		<p>Occurs when the component is disposed by a call to the <a class="xref" href="system.componentmodel.component.dispose?view=netframework-4.8#System_ComponentModel_Component_Dispose" data-linktype="relative-path">Dispose()</a> method.</p>
+
+		(Inherited from <a class="xref" href="system.componentmodel.component?view=netframework-4.8" data-linktype="relative-path">Component</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.errordatareceived?view=netframework-4.8" data-linktype="relative-path">ErrorDataReceived</a>
+	</span>
+</td>
+	<td>
+		<p>Occurs when an application writes to its redirected <a class="xref" href="system.diagnostics.process.standarderror?view=netframework-4.8#System_Diagnostics_Process_StandardError" data-linktype="relative-path">StandardError</a> stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.exited?view=netframework-4.8" data-linktype="relative-path">Exited</a>
+	</span>
+</td>
+	<td>
+		<p>Occurs when a process exits.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+        				<td>
+	<span class="break-text">
+		<a class="xref" href="system.diagnostics.process.outputdatareceived?view=netframework-4.8" data-linktype="relative-path">OutputDataReceived</a>
+	</span>
+</td>
+	<td>
+		<p>Occurs each time an application writes a line to its redirected <a class="xref" href="system.diagnostics.process.standardoutput?view=netframework-4.8#System_Diagnostics_Process_StandardOutput" data-linktype="relative-path">StandardOutput</a> stream.</p>
+
+	</td>
+
+        	</tr>
+	</table>
+
+
+
+
+	<h2 id="security">Security</h2>
+	<p>
+		<a class="xref" href="system.security.permissions.securityaction?view=netframework-4.8#System_Security_Permissions_SecurityAction_LinkDemand" data-linktype="relative-path">LinkDemand</a>
+
+		<br>
+		for full trust for the immediate caller. This class cannot be used by partially trusted code.
+
+	</p>
+	<p>
+		<a class="xref" href="system.security.permissions.securityaction?view=netframework-4.8#System_Security_Permissions_SecurityAction_InheritanceDemand" data-linktype="relative-path">InheritanceDemand</a>
+
+		<br>
+		for full trust for inheritors. This class cannot be inherited by partially trusted code.
+
+	</p>
+
+	<h2 class="moniker-applies-to">Applies to</h2>
+
+
+	<h2 id="see-also">See also</h2>
+	<ul>
+<li><a class="xref" href="system.diagnostics.process.start?view=netframework-4.8#System_Diagnostics_Process_Start" data-linktype="relative-path">Start()</a></li>
+<li><a class="xref" href="system.diagnostics.processstartinfo?view=netframework-4.8" data-linktype="relative-path">ProcessStartInfo</a></li>
+<li><a class="xref" href="system.diagnostics.process.closemainwindow?view=netframework-4.8#System_Diagnostics_Process_CloseMainWindow" data-linktype="relative-path">CloseMainWindow()</a></li>
+<li><a class="xref" href="system.diagnostics.process.kill?view=netframework-4.8#System_Diagnostics_Process_Kill" data-linktype="relative-path">Kill()</a></li>
+<li><a class="xref" href="system.diagnostics.processthread?view=netframework-4.8" data-linktype="relative-path">ProcessThread</a></li>
+<li><a href="https://code.msdn.microsoft.com/windowsdesktop/Using-the-NET-Process-Class-d70597ef" data-linktype="external">Using the .NET Process Class</a></li>
+</ul>
+
+
+						<!-- </content> -->
+
+						</main>
+
+						<!-- rating mobile section -->
+								<div class="is-hidden-desktop has-border-top has-margin-top-large has-padding-top-small">
+<div data-bi-name="rating" class="feedback-verbatim has-border-bottom has-padding-bottom-small has-margin-bottom-small">
+	<div class="binary-rating">
+		<div class="binary-rating-buttons">
+			<h3 class="has-text-weight-semibold has-margin-top-none has-margin-bottom-small">Is this page helpful?</h3>
+			<div>
+				<button class="thumb-rating like has-inner-focus has-padding-left-extra-small has-padding-right-extra-small" title="Yes" data-bi-name="rating-yes" data-bi-sat="1">
+					<span class="icon docon docon-like" aria-hidden="true"></span><span>Yes</span>
+				</button>
+				<button class="thumb-rating dislike has-inner-focus has-padding-none has-padding-right-extra-small" title="No" data-bi-name="rating-no" data-bi-sat="0" aria-expanded="false" aria-haspopup="true" aria-controls="rating-feedback">
+					<span class="icon docon docon-dislike" aria-hidden="true"></span><span>No</span>
+				</button>
+			</div>
+		</div>
+		<form class="feedback-verbatim-form is-hidden">
+			<div class="verbatim-textarea box is-relative has-box-shadow-none has-border has-margin-top-small has-padding-extra-small is-size-8">
+				<label for="rating-feedback-mobile" class="visually-hidden">Any additional feedback?</label>
+				<textarea id="rating-feedback-mobile" rows="4" maxlength="999" placeholder="Any additional feedback?" required class="textarea has-border-none has-box-shadow-none has-inner-focus"></textarea>
+			</div>
+			<div class="buttons is-right has-margin-top-medium has-margin-right-extra-small">
+				<button class="skip-rating button is-text is-link is-small" type="button">Skip</button>
+				<button disabled class="submit-rating button is-primary is-small" type="submit" data-bi-name="rating-verbatim">Submit</button>
+			</div>
+		</form>
+	</div>
+	<div class="thankyou-rating is-hidden">
+		<p>Thank you.</p>
+	</div>
+</div>								</div>
+						<!-- end rating mobile section -->
+
+						<!-- feedback section -->
+
+
+
+
+						<!-- end feedback section -->
+
+						<!-- feedback report section -->
+						<!-- end feedback report section -->
+
+						<div class="footerContainer is-visible-interactive has-default-focus ">
+<footer id="footer-interactive" data-bi-name="footer" class="footer-layout">
+
+    <a data-mscc-ic="false" class="locale-selector-link" href="#" data-bi-name="select-locale"><span class="icon docon docon-world is-size-4 has-margin-right-small" aria-hidden="true"></span><span class="local-selector-link-text has-inner-focus"></span></a>
+
+    <ul class="links" data-bi-name="footerlinks">
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/previous-versions/" data-bi-name="archivelink">Previous Version Docs</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/teamblog" data-bi-name="bloglink">Blog</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/contribute" data-bi-name="contributorGuide">Contribute</a></li>
+			<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy &amp; Cookies</a></li>
+		<li><a data-mscc-ic="false" href="/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+		<li><a data-mscc-ic="false" href="https://aka.ms/sitefeedback" data-bi-name="feedback">Site Feedback</a></li>
+		<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+    </ul>
+</footer>
+						</div>
+					</div>
+
+					<div id="page-actions" class="right-container column is-one-quarter is-one-fifth-desktop is-hidden-mobile is-hidden-tablet-only" data-bi-name="pageactions" role="complementary" aria-label="Page Actions">
+						<div id="affixed-right-container" class="doc-outline is-fixed is-vertically-scrollable">
+<div data-bi-name="rating" class="feedback-verbatim has-border-bottom has-padding-bottom-small has-margin-bottom-small">
+	<div class="binary-rating">
+		<div class="binary-rating-buttons">
+			<h3 class="has-text-weight-semibold has-margin-top-none has-margin-bottom-small">Is this page helpful?</h3>
+			<div>
+				<button class="thumb-rating like has-inner-focus has-padding-left-extra-small has-padding-right-extra-small" title="Yes" data-bi-name="rating-yes" data-bi-sat="1">
+					<span class="icon docon docon-like" aria-hidden="true"></span><span>Yes</span>
+				</button>
+				<button class="thumb-rating dislike has-inner-focus has-padding-none has-padding-right-extra-small" title="No" data-bi-name="rating-no" data-bi-sat="0" aria-expanded="false" aria-haspopup="true" aria-controls="rating-feedback">
+					<span class="icon docon docon-dislike" aria-hidden="true"></span><span>No</span>
+				</button>
+			</div>
+		</div>
+		<form class="feedback-verbatim-form is-hidden">
+			<div class="verbatim-textarea box is-relative has-box-shadow-none has-border has-margin-top-small has-padding-extra-small is-size-8">
+				<label for="rating-feedback-mobile" class="visually-hidden">Any additional feedback?</label>
+				<textarea id="rating-feedback-mobile" rows="4" maxlength="999" placeholder="Any additional feedback?" required class="textarea has-border-none has-box-shadow-none has-inner-focus"></textarea>
+			</div>
+			<div class="buttons is-right has-margin-top-medium has-margin-right-extra-small">
+				<button class="skip-rating button is-text is-link is-small" type="button">Skip</button>
+				<button disabled class="submit-rating button is-primary is-small" type="submit" data-bi-name="rating-verbatim">Submit</button>
+			</div>
+		</form>
+	</div>
+	<div class="thankyou-rating is-hidden">
+		<p>Thank you.</p>
+	</div>
+</div>							<nav id="side-doc-outline" data-bi-name="intopic toc" role="navigation" aria-label="Article Outline">
+								<h3>In this article</h3>
+							</nav>
+						</div>
+					</div>
+
+					<!--end of div.columns -->
+				</div>
+
+			<!--end of .primary-holder -->
+			</section>
+
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+		</div>
+
+		<!--end of .mainContainer -->
+	</div>
+
+	<div id="openFeedbackContainer" class="openfeedback-container"></div>
+
+	<div class="footerContainer has-default-focus is-hidden-interactive ">
+<footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo">
+
+    <a data-mscc-ic="false" class="locale-selector-link" href="#" data-bi-name="select-locale"><span class="icon docon docon-world is-size-4 has-margin-right-small" aria-hidden="true"></span><span class="local-selector-link-text"></span></a>
+
+    <ul class="links" data-bi-name="footerlinks">
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/previous-versions/" data-bi-name="archivelink">Previous Version Docs</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/teamblog" data-bi-name="bloglink">Blog</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/contribute" data-bi-name="contributorGuide">Contribute</a></li>
+			<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy &amp; Cookies</a></li>
+		<li><a data-mscc-ic="false" href="/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+		<li><a data-mscc-ic="false" href="https://aka.ms/sitefeedback" data-bi-name="feedback">Site Feedback</a></li>
+		<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+    </ul>
+</footer>
+	</div>
+
+	<div id="action-panel" role="region" aria-label="Action Panel" class="action-panel has-default-focus" tabindex="-1"></div>
+</body>
+</html>
