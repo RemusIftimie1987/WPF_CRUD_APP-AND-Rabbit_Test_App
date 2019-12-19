@@ -51,7 +51,14 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "netcoreapp3.0", "Lab_21_Asy
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "52967"
+		SlnRelativePath = "Lab_21_Async_Await\bin\Debug\netcoreapp3.0\"
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectToAzure_Test", "ConnectToAzure_Test\ConnectToAzure_Test.csproj", "{FBC737D0-65FD-42FD-972E-E0F5043E5A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab33_MVC_Framework_Entity", "Lab33_MVC_Framework_Entity\Lab33_MVC_Framework_Entity.csproj", "{C473E607-8006-47A4-8207-7508AD404174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_MVC_ASP_EntityF_CRUD", "Practice_MVC_ASP_EntityF_CRUD\Practice_MVC_ASP_EntityF_CRUD.csproj", "{2930013D-85B2-4654-AEEE-B731E1600A64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +130,18 @@ Global
 		{B0641247-1780-4AFC-8369-7B0866CF0EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0641247-1780-4AFC-8369-7B0866CF0EE6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{B0641247-1780-4AFC-8369-7B0866CF0EE6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FBC737D0-65FD-42FD-972E-E0F5043E5A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC737D0-65FD-42FD-972E-E0F5043E5A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC737D0-65FD-42FD-972E-E0F5043E5A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC737D0-65FD-42FD-972E-E0F5043E5A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C473E607-8006-47A4-8207-7508AD404174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C473E607-8006-47A4-8207-7508AD404174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C473E607-8006-47A4-8207-7508AD404174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C473E607-8006-47A4-8207-7508AD404174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2930013D-85B2-4654-AEEE-B731E1600A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2930013D-85B2-4654-AEEE-B731E1600A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2930013D-85B2-4654-AEEE-B731E1600A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2930013D-85B2-4654-AEEE-B731E1600A64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
